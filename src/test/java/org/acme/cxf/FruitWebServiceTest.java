@@ -25,10 +25,10 @@ public class FruitWebServiceTest {
                 "   <soapenv:Header/>\n" +
                 "   <soapenv:Body>\n" +
                 "   <cxf:add>\n" +
-                "    <cxf:Fruit>\n" +
+                "    <Fruit>\n" +
                 "      <name>Pineapple</name>\n" +
                 "      <description>Tropical fruit</description>\n" +
-                "    </cxf:Fruit>	  \n" +
+                "    </Fruit>	  \n" +
                 "   </cxf:add>\n" +
                 "   </soapenv:Body>\n" +
                 "</soapenv:Envelope>";

@@ -13,7 +13,7 @@ public interface FruitWebService {
     Set<Fruit> list();
 
     @WebMethod
-    Set<Fruit> add(Fruit fruit);
+    Set<Fruit> add(@WebParam(name = "Fruit") Fruit fruit);
 
     @WebMethod
     Set<Fruit> delete(Fruit fruit);
